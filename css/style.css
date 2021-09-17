@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-right: 25px;
+    margin-top: -150px;
+    width: 770px;
+    height: 618px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-bg {
+    width: 400px;
+    align-self: center;
+    height: 618px;
+    margin-right: 10px;
+}
+
+.section-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login-container {
+    width: 350px;
+    height: 380px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.get-app {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.get-app p {
+    padding: 5px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.sign-up {
+    height: 70px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up p {
+    font-weight: none;
+    font-size: 14px;
+}
+
+.sign-up p a {
+    color:#0095f6;
+    font-weight: bold;
+}
+
+.login {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login img {
+    width: 230px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.login p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.75em;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.input-login {
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 7px;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-color: rgba(0,149,246,.3);
+}
+
+.recover {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-fb {
+    font-weight: 600;
+    color: #385185;
+    font-size: 15px;
+}
+
+.forgot-pass {
+    color: #385185;
+    font-size: 12px;
+}
+
+
+
+.shop {
+    display: flex;
+}
+
+.shop img{
+    width: 100%;
+}
+
+.app-store {
+    margin: 0 5px;
+    width: 150px;
+}
+
+.play-store {
+    width: 150px;
+}
+
+.login p {
+    padding: 10px;
+    color: #8e8e8e;
+}
